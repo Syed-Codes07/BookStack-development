@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generator - init help should print expected information 1`] = `
+"Usage: jhipster init [options]
+
+Init project (alpha)
+
+Options:
+  --auto-crlf                   Detect line endings
+  --skip-cache                  Do not remember prompt answers (default: false)
+  --skip-install                Do not automatically install dependencies (default: false)
+  --force-install               Fail on install dependencies error (default: false)
+  --ask-answered                Show prompts for already configured options (default: false)
+  --skip-git                    Skip git repository initialization
+  --force-git                   Force commit to git repository
+  --commit-msg <value>          Commit changes (implies forceGit)
+  --monorepository              Use monorepository
+  --base-name <value>           Application base name
+  --prettier-tab-width <value>  Default tab width for prettier (default: 2)
+  --skip-commit-hook            Skip adding husky commit hooks
+  -h, --help                    display help for command
+"
+`;
+
+exports[`generator - init with default config should write files and match snapshot 1`] = `
+{
+  ".editorconfig": {
+    "stateCleared": "modified",
+  },
+  ".gitattributes": {
+    "stateCleared": "modified",
+  },
+  ".gitignore": {
+    "stateCleared": "modified",
+  },
+  ".yo-rc.json": {
+    "stateCleared": "modified",
+  },
+  "README.md": {
+    "stateCleared": "modified",
+  },
+}
+`;

@@ -1,0 +1,10 @@
+*
+
+!modules
+!project-templates
+!test
+!cicd.js
+!example.env
+!package*.json
+!server.js
+!worker.js

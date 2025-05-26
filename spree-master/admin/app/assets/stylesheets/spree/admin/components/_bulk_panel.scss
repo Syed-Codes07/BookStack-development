@@ -1,0 +1,48 @@
+.bulk-panel-container {
+  display: inline-flex;
+  align-items: center;
+  border-radius: $border-radius-lg;
+  background-color: $white;
+  padding: 0.5rem;
+  box-shadow: $dropdown-box-shadow;
+  animation: bounceInUp;
+  animation-duration: 0.5s;
+  gap: 0.5rem;
+
+  .btn {
+    height: 2rem;
+  }
+}
+
+#bulk-panel {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 1rem;
+  left: 0;
+  z-index: 1020;
+}
+
+@include media-breakpoint-up(lg) {
+  #bulk-panel {
+    left: 25%;
+    width: 75%;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  #bulk-panel {
+    left: 16.66666667%;
+    width: 83.33333333%;
+  }
+}
+
+.bulk-operations-counter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-left: 1px solid $gray-50;
+}
