@@ -1,5 +1,0 @@
-{
-    "User:groups": "getUserGroups",
-    "Query:getUser": "getUserObject",
-    "User:roles": "getUserRoles"
-}

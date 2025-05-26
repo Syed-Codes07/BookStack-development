@@ -1,1 +1,0 @@
-Code Snippet to add a label to the attachment for a Catalog Item on the Portal.

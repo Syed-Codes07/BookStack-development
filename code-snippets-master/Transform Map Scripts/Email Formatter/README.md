@@ -1,1 +1,0 @@
-The purpose of this script is to validate email addresses during a data import in ServiceNow. It ensures that the email addresses conform to a standard format (i.e., are valid email addresses), converts them to lowercase, trims any extra spaces, and logs invalid email addresses for review or further action.

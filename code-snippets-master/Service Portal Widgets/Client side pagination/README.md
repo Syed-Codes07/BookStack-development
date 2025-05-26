@@ -1,2 +1,0 @@
-This code can be used to add client side pagination to the widget. 
-if there are a lot of records on a customized widget and you prefer using client side pagination instead of server side pagination, use this method me

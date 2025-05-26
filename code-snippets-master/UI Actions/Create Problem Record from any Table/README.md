@@ -1,1 +1,0 @@
-This UI action helps in creating a problem record from an incident or even from a change table, and we can modify this code by changing the table name we can use it for any sort of table to create a problem record.

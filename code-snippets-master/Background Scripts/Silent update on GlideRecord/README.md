@@ -1,1 +1,0 @@
-Add the gr.autoSysFields(false) to prevent system updates when modifying GlideRecord in background script execution. This is to preserve audit containing the last known user modifications from ticket form.

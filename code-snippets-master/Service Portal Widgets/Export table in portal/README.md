@@ -1,1 +1,0 @@
-This widget can be used to download/export a table based on the given query and list view from a button click on the widget

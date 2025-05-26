@@ -1,1 +1,0 @@
-This code is used to block attachments for a specific record condition (assignment group, state, etc)

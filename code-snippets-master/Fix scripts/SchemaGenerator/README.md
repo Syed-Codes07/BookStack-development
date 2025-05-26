@@ -1,1 +1,0 @@
-The mentioned script provides a schema for any table in ServiceNow.
